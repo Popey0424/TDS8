@@ -1,15 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_malette_metallique",
+  "name": "obj_button_credits_exit",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "folders/Objects/Decoration/group1.yy",
+    "name": "Credit",
+    "path": "folders/Objects/obj_Menu/Credit.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,9 +30,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_malette_metallique",
-    "path": "sprites/spr_malette_metallique/spr_malette_metallique.yy",
+    "name": "spr_button_exit",
+    "path": "sprites/spr_button_exit/spr_button_exit.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

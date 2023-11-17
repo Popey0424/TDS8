@@ -67,6 +67,9 @@ calc_movement();
 //	}
 
 
+
+
+
 //le joueur peut bouger s'il appuie de nouveau sur f près d'un objet interactif
 
 if ((instance_exists(obj_stop_player)) and f=0) or ((instance_exists(obj_stop_player)) and f2=0 ) or ((instance_exists(obj_stop_player)) and f3=0 ) or ((instance_exists(obj_stop_player)) and f4=0) 

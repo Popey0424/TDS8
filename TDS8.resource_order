@@ -2,5 +2,7 @@
   "FolderOrderSettings": [
     {"name":"Illustrations","order":1,"path":"folders/Sprites/Illustrations.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"PS_sparks_fluid","order":1,"path":"particles/PS_sparks_fluid/PS_sparks_fluid.yy",},
+  ],
 }

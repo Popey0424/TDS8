@@ -1,4 +1,4 @@
-// go to room options 
+ 
 
 if mouse_check_button_pressed(mb_left)
 {
@@ -6,8 +6,10 @@ if mouse_check_button_pressed(mb_left)
 	with obj_fade
 	
 	{	
-		pressed = 4;
+		pressed = 5;
 	}
 	
 	
 }
+
+audio_sound_gain(Click, global.audio, 0);
