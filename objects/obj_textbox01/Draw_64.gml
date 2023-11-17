@@ -1,7 +1,7 @@
 //affichage des textes à l'écran
 
 xx = camera_get_view_height(view_camera[0]) /3 ;
-yy = camera_get_view_width(view_camera[0]) /2 ;
+yy = camera_get_view_width(view_camera[0]) /2.3 ;
 
 //draw_sprite(spr_textbox,0,xx,yy);
 

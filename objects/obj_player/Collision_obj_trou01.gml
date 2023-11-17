@@ -17,6 +17,6 @@ if (__dnd_lives >= 0) and (invincible = false)
 	flashAlpha = 1;
 	layer_enable_fx("Shake",true);
 	alarm[2] = 5;
-	alarm[1] = 180 ;
+	alarm[1] = 120 ;
 }
 		

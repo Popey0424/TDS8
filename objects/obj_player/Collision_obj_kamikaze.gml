@@ -7,7 +7,7 @@
 if (invincible = false) {
 	invincible = true;
 	__dnd_lives -= 2;
-	alarm[1] = 180 ;
+	alarm[1] = 120 ;
 }
 
 
