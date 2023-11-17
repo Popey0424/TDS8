@@ -244,4 +244,32 @@ game_end();
 
 
 
+if (f5==1)
+{
+    instance_create_layer(x,y,"Instances_Character",obj_stop_player);
+
+    if (page_object5 = 0)
+
+    {
+
+        draw_sprite(spr_affiche01,image_index,300,300);
+
+
+        }
+   
+
+    if (page_object5 = 1)
+
+    {
+
+        f5 = 0;
+        page_object5 = 0;
+        instance_destroy(obj_stop_player);
+
+            }
+} 
+
+
+
+
 

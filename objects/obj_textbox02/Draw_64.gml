@@ -7,4 +7,6 @@ yy = camera_get_view_width(view_camera[0]) /2.3 ;
 
 draw_set_font(fnt_text_font);
 
+draw_sprite(spr_text_box,0,xx+550,yy+25);
+
 draw_text(xx + 250,yy,text[page]);

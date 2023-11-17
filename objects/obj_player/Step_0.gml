@@ -72,7 +72,7 @@ calc_movement();
 
 //le joueur peut bouger s'il appuie de nouveau sur f près d'un objet interactif
 
-if ((instance_exists(obj_stop_player)) and f=0) or ((instance_exists(obj_stop_player)) and f2=0 ) or ((instance_exists(obj_stop_player)) and f3=0 ) or ((instance_exists(obj_stop_player)) and f4=0) 
+if ((instance_exists(obj_stop_player)) and f=0) or ((instance_exists(obj_stop_player)) and f2=0 ) or ((instance_exists(obj_stop_player)) and f3=0 ) or ((instance_exists(obj_stop_player)) and f4=0) or ((instance_exists(obj_stop_player)) and f5=0 )
 {
 instance_destroy(obj_stop_player);
 }
@@ -279,3 +279,24 @@ if anim_arme = true
 	frames = frames + 1;
 			
 }
+
+//object interactif 5
+
+if f5=1
+
+{
+if (keyboard_check_pressed(vk_right)) or keyboard_check_pressed(ord("D"))
+{
+  page_object5 = page_object5+1;
+} 
+
+if (keyboard_check_pressed(vk_left)) or keyboard_check_pressed(ord("Q"))
+{
+  page_object5 = page_object5-1;}
+
+ 
+if ((keyboard_check_pressed(vk_left) or keyboard_check_pressed(ord("Q"))) and page_object5<0)
+{
+      f5 = 0;
+    page_object5 = 0;
+}  }
