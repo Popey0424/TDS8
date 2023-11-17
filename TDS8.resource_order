@@ -2,5 +2,10 @@
   "FolderOrderSettings": [
     {"name":"Illustrations","order":1,"path":"folders/Sprites/Illustrations.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_illu_cam03","order":3,"path":"sprites/spr_illu_cam03/spr_illu_cam03.yy",},
+    {"name":"spr_illu_cam01","order":1,"path":"sprites/spr_illu_cam01/spr_illu_cam01.yy",},
+    {"name":"spr_illu_cam02","order":2,"path":"sprites/spr_illu_cam02/spr_illu_cam02.yy",},
+    {"name":"spr_illu_cam04","order":4,"path":"sprites/spr_illu_cam04/spr_illu_cam04.yy",},
+  ],
 }
