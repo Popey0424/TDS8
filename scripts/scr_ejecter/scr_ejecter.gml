@@ -5,7 +5,9 @@
 
 function scr_ejecter()
 {
-	var targetX, targetY;
+	var  targetX; 
+	var  targetY;
+	
 	
     
 	
@@ -31,16 +33,17 @@ function scr_ejecter()
 	else if (other.y >= y + 64)
 	{
 		targetX = other.x;
-		targetY = y + (sprite_height/2 + 192)
-	}
-	
-	if (!place_meeting(targetX, targetY, obj_Wall))
-	{
-        other.x = targetX;
-        other.y = targetY;
+		targetY = y - (sprite_height/2 + 192)
 	}
 
+	
+if (!place_meeting(targetX, targetY, obj_Wall))
+{
+	other.x = targetX;
+	other.y = targetY;
 }
+}
+
 
 function scr_puzzle02()
 {
