@@ -5,43 +5,59 @@
 
 function scr_ejecter()
 {
-	var  targetX; 
-	var  targetY;
+	
+	var  targetX = other.x; 
+	var  targetY = other.y;
 	
 	
     
 	
 	if (other.x <= x-128) 
 	{
-		targetX = x - 300
-		targetY = other.y
+		targetX = x - 300;
+		targetY = other.y;
+		if (!place_meeting(targetX, targetY, obj_Wall))
+		{
+			other.x -= 50;
+		}
 		
 	}
 	
 	else if (other.x >= x+128)
 	{
-		targetX = x + 300
-		targetY = other.y
+		targetX = x + 300;
+		targetY = other.y;
+		if (!place_meeting(targetX, targetY, obj_Wall))
+		{
+			other.x += 50;
+		}	
 	}
 
-	else if (other.y <= y-64)
+	else if (other.y <= y + 64) // player en dessous
 	{
 		targetX = other.x;
-		targetY = y - (sprite_height/2 + 192)
+		targetY = other.y + 50;
+		if (!place_meeting(targetX, targetY, obj_Wall))
+		{
+			other.y +=50;
+		}
 	}
 
-	else if (other.y >= y + 64)
+	else if (other.y >= y - 181) // player au dessus
 	{
 		targetX = other.x;
-		targetY = y - (sprite_height/2 + 192)
+		targetY = other.y - 50;
+		if (!place_meeting(targetX, targetY, obj_Wall))
+		{
+			other.y -= 50;
+		}
 	}
-
 	
-if (!place_meeting(targetX, targetY, obj_Wall))
-{
-	other.x = targetX;
-	other.y = targetY;
-}
+	/*if (!place_meeting(targetX, targetY, obj_Wall))
+	{
+		other.x = targetX;
+		other.y = targetY;
+	}*/
 }
 
 
