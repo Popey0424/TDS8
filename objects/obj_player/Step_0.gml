@@ -266,3 +266,13 @@ if possede_arme = 1
 anim_arme = true;
 
 }
+
+
+
+if anim_arme = true
+
+{ 
+	
+	frames = frames + 1;
+			
+}

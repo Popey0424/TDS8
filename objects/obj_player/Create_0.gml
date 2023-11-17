@@ -66,6 +66,8 @@ __dnd_lives += real(3);
 	possede_arme = 0;
 	
 	anim_arme = false;
+	frames = 0;
+	
 	
 
 	
@@ -76,7 +78,7 @@ __dnd_lives += real(3);
 	
 	
 	
-	obj_Color = c_red;
+	
 	
 	
 

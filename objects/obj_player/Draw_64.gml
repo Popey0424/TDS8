@@ -143,7 +143,6 @@ if (f3==1)
 
 // afficher objet 4
 
-
 if (f4==1)
 {
     instance_create_layer(x,y,"Instances_Character",obj_stop_player);
@@ -152,7 +151,7 @@ if (f4==1)
 
     {
 
-        draw_sprite(spr_livre_ouvert,image_index,500,200);
+        draw_sprite(spr_illu_cam01,image_index,1,1);
 
 
         }
@@ -160,7 +159,7 @@ if (f4==1)
     if (page_object4 = 1)
 
     {
-        draw_sprite(spr_livre_page01, image_index,500,200);
+        draw_sprite(spr_illu_cam02, image_index,1,1);
 
 
         }
@@ -168,43 +167,54 @@ if (f4==1)
         if (page_object4 = 2)
 
     {
-        draw_sprite(spr_livre_page02, image_index,500,200);
+        draw_sprite(spr_illu_cam03, image_index,1,1);
 
         }
 
            if (page_object4 = 3)
 
     {
-        draw_sprite(spr_livre_page03, image_index,500,200);
+        draw_sprite(spr_illu_cam04, image_index,1,1);
 
       }
-
-               if (page_object4 = 4)
-
-    {
-        draw_sprite(spr_livre_ferme, image_index,500,200);
-
-        } }
+	  
+	   if (page_object4 = 4)
+	   
+	   {
+   f4 = 0;
+        page_object4 = 0;
+        instance_destroy(obj_stop_player);
+		
+	   }
+              }
 		
 		
 		// afficher anim récupération arme
 
 
-//if (anim_arme = true) 
+if anim_arme = true and frames < 120  
 
-//	{
-//		draw_sprite(spr_livre_ferme, image_index,500,200);
-//		instance_create_layer(x,y,"Instances_pop_up", obj_stop_player);
+	{
 		
+		draw_sprite(spr_illu_arme, image_index,1,1);
+	
+		instance_create_layer(x,y,"Instances_pop_up", obj_stop_player);
 		
 	
-//	}	
+	}	
 	
+	
+	
+if frames = 120   
+
+{sprite_delete(spr_illu_arme);
 
 
-//{sprite_delete(spr_livre_ferme);
+instance_destroy(obj_stop_player);
+
+anim_arme = false
 
 
-//instance_destroy(obj_stop_player);}
+}
 
 

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"obj_trigger_puzzle_fini","order":4,"path":"objects/obj_trigger_puzzle_fini/obj_trigger_puzzle_fini.yy",},
@@ -6,5 +7,15 @@
     {"name":"obj_trigger_spawn_kamikaze_off","order":2,"path":"objects/obj_trigger_spawn_kamikaze_off/obj_trigger_spawn_kamikaze_off.yy",},
     {"name":"obj_trigger_zone_open","order":1,"path":"objects/obj_trigger_zone_open/obj_trigger_zone_open.yy",},
     {"name":"obj_possede_arme","order":5,"path":"objects/obj_possede_arme/obj_possede_arme.yy",},
+=======
+  "FolderOrderSettings": [
+    {"name":"Illustrations","order":1,"path":"folders/Sprites/Illustrations.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_illu_cam03","order":3,"path":"sprites/spr_illu_cam03/spr_illu_cam03.yy",},
+    {"name":"spr_illu_cam01","order":1,"path":"sprites/spr_illu_cam01/spr_illu_cam01.yy",},
+    {"name":"spr_illu_cam02","order":2,"path":"sprites/spr_illu_cam02/spr_illu_cam02.yy",},
+    {"name":"spr_illu_cam04","order":4,"path":"sprites/spr_illu_cam04/spr_illu_cam04.yy",},
+>>>>>>> 82f1a136558238bb360fd8cd9930e526dea7dc9c
   ],
 }
