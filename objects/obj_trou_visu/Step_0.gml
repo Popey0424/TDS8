@@ -5,7 +5,6 @@ y = obj_zone_collision.y
 move_snap(128,128)
 y += 64
 
-image_alpha = 0.2
 
 if (x > obj_player.x)
 {

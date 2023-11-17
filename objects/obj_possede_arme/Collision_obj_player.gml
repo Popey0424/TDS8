@@ -11,5 +11,6 @@ with obj_player
 
 
 {possede_arme = 1;}
-
+obj_zone_collision.image_alpha = 1
+obj_trou_visu.image_alpha = 0.2
 

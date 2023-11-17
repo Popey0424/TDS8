@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Narrative",
-    "path": "folders/Objects/Narrative.yy",
+    "name": "Trigger",
+    "path": "folders/Objects/Trigger.yy",
   },
   "parentObjectId": null,
   "persistent": false,
