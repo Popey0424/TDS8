@@ -4,10 +4,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_illu_cam03","order":3,"path":"sprites/spr_illu_cam03/spr_illu_cam03.yy",},
+    {"name":"obj_trigger_end","order":1,"path":"objects/obj_trigger_end/obj_trigger_end.yy",},
     {"name":"spr_illu_cam01","order":1,"path":"sprites/spr_illu_cam01/spr_illu_cam01.yy",},
     {"name":"spr_illu_cam02","order":2,"path":"sprites/spr_illu_cam02/spr_illu_cam02.yy",},
+    {"name":"spr_illu_end","order":5,"path":"sprites/spr_illu_end/spr_illu_end.yy",},
     {"name":"spr_illu_cam04","order":4,"path":"sprites/spr_illu_cam04/spr_illu_cam04.yy",},
-    {"name":"spr_arrow_back","order":1,"path":"sprites/spr_arrow_back/spr_arrow_back.yy",},
+    {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
     {"name":"spr_deco_mur","order":1,"path":"sprites/spr_deco_mur/spr_deco_mur.yy",},
     {"name":"obj_button_back","order":1,"path":"objects/obj_button_back/obj_button_back.yy",},
   ],

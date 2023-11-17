@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_arrow_back",
-    "path": "sprites/spr_arrow_back/spr_arrow_back.yy",
+    "name": "spr_back",
+    "path": "sprites/spr_back/spr_back.yy",
   },
   "spriteMaskId": null,
   "visible": true,
