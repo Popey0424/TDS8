@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (etat == 0)
+{
+	image_index = 0
+}
+
+
 if etat == 1
 {
 	image_index = 1
