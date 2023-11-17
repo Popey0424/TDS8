@@ -1,4 +1,6 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Illustrations","order":1,"path":"folders/Sprites/Illustrations.yy",},
+  ],
   "ResourceOrderSettings": [],
 }

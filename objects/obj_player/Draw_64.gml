@@ -184,27 +184,36 @@ if (f4==1)
     {
         draw_sprite(spr_livre_ferme, image_index,500,200);
 
-        } }
+        } 
+}
 		
 		
 		// afficher anim récupération arme
 
 
-//if (anim_arme = true) 
+if anim_arme = true and frames < 120  
 
-//	{
-//		draw_sprite(spr_livre_ferme, image_index,500,200);
-//		instance_create_layer(x,y,"Instances_pop_up", obj_stop_player);
+	{
 		
+		draw_sprite(spr_illu_arme, image_index,1,1);
+	
+		instance_create_layer(x,y,"Instances_pop_up", obj_stop_player);
 		
 	
-//	}	
+	}	
 	
+	
+	
+if frames = 120   
+
+{sprite_delete(spr_illu_arme);
 
 
-//{sprite_delete(spr_livre_ferme);
+instance_destroy(obj_stop_player);
+
+anim_arme = false
 
 
-//instance_destroy(obj_stop_player);}
+}
 
 
