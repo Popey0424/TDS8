@@ -281,7 +281,6 @@
     {"id":{"name":"obj_manivelle","path":"objects/obj_manivelle/obj_manivelle.yy",},},
     {"id":{"name":"obj_obstacle_case01","path":"objects/obj_obstacle_case01/obj_obstacle_case01.yy",},},
     {"id":{"name":"obj_bomberman","path":"objects/obj_bomberman/obj_bomberman.yy",},},
-    {"id":{"name":"obj_button_exit_credits","path":"objects/obj_button_exit_credits/obj_button_exit_credits.yy",},},
     {"id":{"name":"spr_tableau02","path":"sprites/spr_tableau02/spr_tableau02.yy",},},
     {"id":{"name":"spr_mur_deco05","path":"sprites/spr_mur_deco05/spr_mur_deco05.yy",},},
     {"id":{"name":"spr_sol_01","path":"sprites/spr_sol_01/spr_sol_01.yy",},},

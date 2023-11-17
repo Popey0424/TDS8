@@ -1,8 +1,4 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"obj_background_credit","order":2,"path":"objects/obj_background_credit/obj_background_credit.yy",},
-    {"name":"obj_scroll_up","order":1,"path":"objects/obj_scroll_up/obj_scroll_up.yy",},
-    {"name":"obj_button_exit_credits","order":3,"path":"objects/obj_button_exit_credits/obj_button_exit_credits.yy",},
-  ],
+  "ResourceOrderSettings": [],
 }

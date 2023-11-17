@@ -16,3 +16,5 @@ if(can_shoot == true)
 		
 		alarm_set(0, 120);
 	}
+	
+audio_sound_gain(tir, global.audio, 0);

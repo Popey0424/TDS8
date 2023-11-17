@@ -93,3 +93,6 @@ if ( pause ){
 		}
 		} //end Confirm statement
 }
+
+audio_sound_gain(PauseMenuSelectionSound, global.audio, 0);
+audio_sound_gain(Click, global.audio, 0);
