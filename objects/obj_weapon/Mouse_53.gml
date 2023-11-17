@@ -5,7 +5,14 @@ global.shooting = true
 
 
 //obj_player.sprite_index = spr_player_attack_right
-
+if (obj_zone_collision.x < obj_player.x)
+{
+	obj_player.image_xscale = -1
+}
+else
+{
+	obj_player.image_xscale = 1
+}
 
 if(can_shoot == true)
 	{

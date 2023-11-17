@@ -17,3 +17,4 @@ zone_collision_active = false;
 image_index = 0
 
 
+
