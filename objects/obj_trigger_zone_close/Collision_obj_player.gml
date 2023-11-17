@@ -2,5 +2,6 @@
 // You can write your code in this editor
 ds_list_clear(global.puzzle01_answer)
 global.puzzle03_answer = 0
+with obj_cuve{etat =1;}
 
 scr_door_close()

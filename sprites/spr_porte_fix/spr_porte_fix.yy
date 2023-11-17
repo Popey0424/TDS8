@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_porte_fix",
-  "bbox_bottom": 518,
-  "bbox_left": 116,
-  "bbox_right": 782,
+  "bbox_bottom": 136,
+  "bbox_left": 119,
+  "bbox_right": 780,
   "bbox_top": 31,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34373157-2d4e-47dc-9fa7-43df6d84af33",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"85eb440d-a782-48d8-894f-db957a4afe81",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 524,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a0a1701c-7c2b-47f0-b44d-41cd013c116a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cee1caaf-35eb-46e8-b8ee-a47d83c377d1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"34373157-2d4e-47dc-9fa7-43df6d84af33","path":"sprites/spr_porte_fix/spr_porte_fix.yy",},},},"Disabled":false,"id":"368562bb-cba6-4b4d-82da-bca52dc77d01","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"85eb440d-a782-48d8-894f-db957a4afe81","path":"sprites/spr_porte_fix/spr_porte_fix.yy",},},},"Disabled":false,"id":"f4bf67e5-98bc-4c09-b3a8-5837b6736907","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

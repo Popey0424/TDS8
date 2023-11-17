@@ -78,7 +78,7 @@ __dnd_lives += real(3);
 	
 	
 	
-	obj_Color = c_red;
+	
 	
 	
 

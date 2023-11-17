@@ -7,7 +7,6 @@ if(ds_list_size(global.puzzle01_answer) == ds_list_size(global.puzzle01))
 	puzzle = ds_list_write(global.puzzle01)
 	if (answer == puzzle)
 	{
-		isFinished01 = true
 		if (obj_porte_puzzle.image_index == 0)
 		{
 			obj_porte_puzzle.image_speed = 1
@@ -30,7 +29,19 @@ if(ds_list_size(global.puzzle01_answer) == ds_list_size(global.puzzle01))
 	
 }
 
+if (obj_cuve.image_index == 3)
+{
+	if (obj_porte_puzzle.image_index == 0)
+	{
+		obj_porte_puzzle.image_speed = 1
+	
+	}
 
+	if (obj_porte_puzzle.image_index == 8)
+	{
+		obj_porte_puzzle.image_speed = 0
+	}
+}
 
 
 if (global.puzzle03_answer == global.puzzle03)
