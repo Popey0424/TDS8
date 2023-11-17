@@ -6,8 +6,7 @@ global.puzzle01 = ds_list_create()
 ds_list_add(global.puzzle01, 2, 3, 1, 4)
 
 global.puzzle01_answer = ds_list_create()
-isFinished01 = false
-isFinished02 = false
+
 
 global.puzzle03 = 3
 global.puzzle03_answer = 0
