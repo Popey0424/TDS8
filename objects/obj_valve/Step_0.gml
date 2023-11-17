@@ -47,3 +47,6 @@ if (image_angle >= 18*19)
 
 if (image_angle > 18*20)
 	image_angle = 1800
+
+
+Valve_mana.keep_angle = image_angle

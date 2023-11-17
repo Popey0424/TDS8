@@ -4,4 +4,4 @@ if (audio_group_is_loaded(music_group))
 	_control = true;
 }
 
-audio_sound_gain(Game_music, global.audio, 0);
+audio_sound_gain(Game_music, global.volume, 0);
