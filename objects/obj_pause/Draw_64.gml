@@ -7,7 +7,7 @@ draw_set_alpha(1);
 draw_set_color( c_white );
 draw_set_halign( fa_left );
 draw_set_valign( fa_center );
-draw_sprite(spr_background_menu_options, 0, x-325 , y - 175 )
+draw_sprite(spr_background_menu_pause, 0, x-325 , y - 175 )
 draw_sprite(spr_title_pausemenu, 0, x - 1100, y - 175)
 
 

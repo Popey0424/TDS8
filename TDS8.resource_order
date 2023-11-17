@@ -1,27 +1,9 @@
 {
-<<<<<<< Updated upstream
-  "FolderOrderSettings": [
-    {"name":"Illustrations","order":1,"path":"folders/Sprites/Illustrations.yy",},
-  ],
-  "ResourceOrderSettings": [
-    {"name":"spr_illu_cam03","order":3,"path":"sprites/spr_illu_cam03/spr_illu_cam03.yy",},
-    {"name":"obj_trigger_end","order":1,"path":"objects/obj_trigger_end/obj_trigger_end.yy",},
-    {"name":"spr_illu_cam01","order":1,"path":"sprites/spr_illu_cam01/spr_illu_cam01.yy",},
-    {"name":"spr_illu_cam02","order":2,"path":"sprites/spr_illu_cam02/spr_illu_cam02.yy",},
-    {"name":"spr_illu_end","order":5,"path":"sprites/spr_illu_end/spr_illu_end.yy",},
-    {"name":"spr_text_box","order":1,"path":"sprites/spr_text_box/spr_text_box.yy",},
-    {"name":"spr_affiche","order":1,"path":"sprites/spr_affiche/spr_affiche.yy",},
-    {"name":"Valve_mana","order":2,"path":"objects/Valve_mana/Valve_mana.yy",},
-    {"name":"spr_affiche01","order":2,"path":"sprites/spr_affiche01/spr_affiche01.yy",},
-    {"name":"Sound_manager","order":1,"path":"objects/Sound_manager/Sound_manager.yy",},
-    {"name":"spr_illu_cam04","order":4,"path":"sprites/spr_illu_cam04/spr_illu_cam04.yy",},
-    {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
-    {"name":"spr_deco_mur","order":1,"path":"sprites/spr_deco_mur/spr_deco_mur.yy",},
-    {"name":"obj_affiche","order":1,"path":"objects/obj_affiche/obj_affiche.yy",},
-    {"name":"obj_button_back","order":1,"path":"objects/obj_button_back/obj_button_back.yy",},
-  ],
-=======
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
->>>>>>> Stashed changes
+  "ResourceOrderSettings": [
+    {"name":"obj_affiche","order":1,"path":"objects/obj_affiche/obj_affiche.yy",},
+    {"name":"spr_background_menu_pause","order":1,"path":"sprites/spr_background_menu_pause/spr_background_menu_pause.yy",},
+    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"Level01","order":1,"path":"rooms/Level01/Level01.yy",},
+  ],
 }

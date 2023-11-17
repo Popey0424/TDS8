@@ -78,12 +78,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_player_idle_without_weapon",
+    "path": "sprites/spr_player_idle_without_weapon/spr_player_idle_without_weapon.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
