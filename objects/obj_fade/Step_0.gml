@@ -135,4 +135,37 @@ if (timer <= 0)
 
 }
 
+
+
+if (state == 0) and pressed = 5
+
+{timer++; 
+	
+	if (timer >= duration) {
+		
+		
+		state = 5;
+	}
+	
+}
+
+else if (state == 5) 
+
+{
+	audio_stop_all()
+	room_goto(RoomMenu);
+	
+timer--;
+
+
+if (timer <= 0) 
+
+{
+	
+	instance_destroy();
+	
+}
+
+}
+
 alpha = timer/duration;

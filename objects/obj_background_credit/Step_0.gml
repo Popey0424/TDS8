@@ -1,28 +1,28 @@
 
-vitesse_animation = 0.1;
+//vitesse_animation = 0.1;
 
 
-if (keyboard_check(vk_up)) {
+//if (keyboard_check(vk_up)) {
    
-    image_index += vitesse_animation;
+//    image_index += vitesse_animation;
 
   
-    if (image_index >= 2 && image_index < 5) {
-        image_speed = 0
-		image_index = 5;
-    }
+//    if (image_index >= 2 && image_index < 5) {
+//        image_speed = 0
+//		image_index = 5;
+//    }
 
-    // Si l'animation atteint la frame 5, passe à la frame suivante (et ainsi de suite)
-    if (image_index >= 5) 
-	{
-        image_index += vitesse_animation;
-    }
+//    // Si l'animation atteint la frame 5, passe à la frame suivante (et ainsi de suite)
+//    if (image_index >= 5) 
+//	{
+//        image_index += vitesse_animation;
+//    }
 
-    // Assurez-vous que l'animation boucle correctement
-    if (image_index >= sprite_get_number(image_index) - 1) {
-        image_index = 0;
-    }
-}
+//    // Assurez-vous que l'animation boucle correctement
+//    if (image_index >= sprite_get_number(image_index) - 1) {
+//        image_index = 0;
+//    }
+//}
 
 
 

@@ -1,15 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_malette",
+  "name": "obj_button_credits_exit",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Autres",
-    "path": "folders/Objects/Decoration/Autres.yy",
+    "name": "Credit",
+    "path": "folders/Objects/obj_Menu/Credit.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_malette",
-    "path": "sprites/spr_malette/spr_malette.yy",
+    "name": "spr_button_exit",
+    "path": "sprites/spr_button_exit/spr_button_exit.yy",
   },
   "spriteMaskId": null,
   "visible": true,

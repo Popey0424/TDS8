@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bulles",
+  "name": "obj_bulles",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "folders/Objects/Decoration/group1.yy",
+    "name": "Autres",
+    "path": "folders/Objects/Decoration/Autres.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -1,9 +1,9 @@
-/// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
+///// @description Insérez la description ici
+//// Vous pouvez écrire votre code dans cet éditeur
 
-//image_speed = 0
-//image_index = 0
+////image_speed = 0
+////image_index = 0
 
 
-currentFrame = 0; 
-keyPressed = false;
+//currentFrame = 0; 
+//keyPressed = false;

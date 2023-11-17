@@ -18,7 +18,7 @@ bonus_par_combo = 10
 
 combo_reset_timer = 0;
 
-
+sparks = false;
 
 //deactive shake par défaut
 layer_enable_fx("Shake",false);

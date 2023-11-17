@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "folders/Objects/Decoration/group1.yy",
+    "name": "Autres",
+    "path": "folders/Objects/Decoration/Autres.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -32,5 +32,5 @@
     "path": "sprites/spr_malette_metallique/spr_malette_metallique.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
