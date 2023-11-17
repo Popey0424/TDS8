@@ -7,7 +7,7 @@ instance_destroy(obj_life);
 if (invincible = false) {
 	invincible = true;
 	__dnd_lives -= 1;
-	alarm[1] = 180 ;
+	alarm[1] = 120 ;
 }
 				
 

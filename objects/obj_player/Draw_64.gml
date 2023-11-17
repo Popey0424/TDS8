@@ -199,8 +199,9 @@ if (f4==1)
 		
 	
 //	}	
-//	else	
 	
+
+
 //{sprite_delete(spr_livre_ferme);
 
 
