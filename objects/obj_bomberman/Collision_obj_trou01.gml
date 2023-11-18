@@ -4,7 +4,7 @@ if(__dnd_lives <= 0)
 {
 	global.score += 10;
 	
-	instance_destroy()
+	instance_destroy();
 	with(other)
 	{
 		if(!variable_instance_exists(id, "__dnd_lives"))

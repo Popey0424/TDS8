@@ -1,5 +1,5 @@
 isdestroy = 0
-speed = 3
+speed = 8
 direction = point_direction(x,y,obj_player.x, obj_player.y)
 
 

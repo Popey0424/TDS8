@@ -3,18 +3,18 @@
 
 if (image_index == 0)
 {
-	draw_text(1700, 1000, " ")
+	draw_text(600, 500, " ")
 }
 
 if (image_index == 1)
 {
-	draw_text(1700, 1000, "1/3")
+	draw_text(600, 500, "1/3")
 }
 if (image_index == 2)
 {
-	draw_text(1700, 1000, "2/3")
+	draw_text(600, 500, "2/3")
 }
 if (image_index == 3)
 {
-	draw_text(1700, 1000, "3/3")
+	draw_text(600, 500, "3/3")
 }

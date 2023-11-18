@@ -3,7 +3,7 @@
 
 if (obj_porte_puzzle.image_index == 0)
 {
-	collision()
+	collision();
 }
 
 

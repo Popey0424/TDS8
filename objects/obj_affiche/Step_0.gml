@@ -1,9 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Insérez la description ici
+// Vous pouvez écrire votre code dans cet éditeur
 
 // Inherit the parent event
 event_inherited();
-
 
 if(has_been_interacted == true)
         {

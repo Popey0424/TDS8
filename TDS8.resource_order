@@ -1,9 +1,22 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"obj_affiche","order":1,"path":"objects/obj_affiche/obj_affiche.yy",},
+    {"name":"obj_textbox05","order":2,"path":"objects/obj_textbox05/obj_textbox05.yy",},
+    {"name":"obj_obstacle_horiz_02","order":6,"path":"objects/obj_obstacle_horiz_02/obj_obstacle_horiz_02.yy",},
+    {"name":"obj_tuyau_horiz_02","order":10,"path":"objects/obj_tuyau_horiz_02/obj_tuyau_horiz_02.yy",},
     {"name":"spr_background_menu_pause","order":1,"path":"sprites/spr_background_menu_pause/spr_background_menu_pause.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_tuyau_verti_02","order":11,"path":"objects/obj_tuyau_verti_02/obj_tuyau_verti_02.yy",},
+    {"name":"obj_pile_de_feuilles","order":5,"path":"objects/obj_pile_de_feuilles/obj_pile_de_feuilles.yy",},
+    {"name":"obj_textbox05_off_collision","order":3,"path":"objects/obj_textbox05_off_collision/obj_textbox05_off_collision.yy",},
+    {"name":"obj_tuyau_cassable_bas","order":7,"path":"objects/obj_tuyau_cassable_bas/obj_tuyau_cassable_bas.yy",},
     {"name":"Level01","order":1,"path":"rooms/Level01/Level01.yy",},
+    {"name":"obj_obstacle_case01","order":4,"path":"objects/obj_obstacle_case01/obj_obstacle_case01.yy",},
+    {"name":"obj_obstacle_verti_01","order":3,"path":"objects/obj_obstacle_verti_01/obj_obstacle_verti_01.yy",},
+    {"name":"obj_obstacle_horiz_01","order":2,"path":"objects/obj_obstacle_horiz_01/obj_obstacle_horiz_01.yy",},
+    {"name":"obj_affiche","order":4,"path":"objects/obj_affiche/obj_affiche.yy",},
+    {"name":"obj_obstacle_caisse","order":1,"path":"objects/obj_obstacle_caisse/obj_obstacle_caisse.yy",},
+    {"name":"obj_tuyau_horiz_01","order":9,"path":"objects/obj_tuyau_horiz_01/obj_tuyau_horiz_01.yy",},
+    {"name":"obj_tuyau_cassable_haut","order":8,"path":"objects/obj_tuyau_cassable_haut/obj_tuyau_cassable_haut.yy",},
   ],
 }
