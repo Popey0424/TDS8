@@ -220,7 +220,7 @@ anim_arme = false
 //afficher animation de fin du jeu
 
 
-if anim_arme2 = true and frames2 < 120  
+if anim_arme2 = true and frames2 < 180  
 
 	{
 		
@@ -236,7 +236,7 @@ if anim_arme2 = true and frames2 < 120
 if frames2 = 180   
 
 {
-game_end();
+room_goto(RoomMenu);
 }
 
 

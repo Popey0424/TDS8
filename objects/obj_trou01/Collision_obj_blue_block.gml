@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-scr_puzzle02()
+scr_puzzle02();

@@ -7,7 +7,7 @@ yy = camera_get_view_width(view_camera[0]) /2.3 ;
 
 //draw_sprite(spr_textbox,0,xx,yy);
 
-if boucle = 1
+if boucle2 = 1
 
 {
 	

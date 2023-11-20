@@ -10,7 +10,7 @@ if (invincible = false) {
 	flashAlpha = 1;
 	layer_enable_fx("Shake",true);
 	alarm[2] = 5;
-	alarm[1] = 120 ;
+	alarm[1] = 60 ;
 }
 
 
