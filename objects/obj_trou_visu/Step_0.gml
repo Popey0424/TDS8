@@ -15,3 +15,13 @@ else if (x < obj_player.x)
 {
 	image_xscale = -1
 }
+
+
+if (obj_player.possede_arme == 0)
+{
+	self.image_alpha = 0
+}
+else if (obj_player.possede_arme == 1)
+{
+	self.image_alpha = 0.2
+}

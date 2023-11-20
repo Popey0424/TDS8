@@ -1,2 +1,2 @@
 global.spawner = true
-instance_destroy();
+instance_destroy(self);
