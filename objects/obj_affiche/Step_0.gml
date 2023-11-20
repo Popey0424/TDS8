@@ -4,6 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
+
 if(has_been_interacted == true)
         {
             with obj_player 
@@ -16,3 +17,4 @@ if(has_been_interacted == true)
             }
                 has_been_interacted = false;
          }
+

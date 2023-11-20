@@ -280,7 +280,18 @@ if anim_arme = true
 			
 }
 
-//object interactif 5
+
+//Arrêter l'illu de fin
+
+if anim_arme2 = true
+
+{ 
+	
+	frames2 = frames2 + 1;
+			
+}
+
+//objet interactif 5 : affiche
 
 if f5=1
 
@@ -300,12 +311,3 @@ if ((keyboard_check_pressed(vk_left) or keyboard_check_pressed(ord("Q"))) and pa
       f5 = 0;
     page_object5 = 0;
 }  }
-
-
-if anim_arme2 = true
-
-{ 
-	
-	frames2 = frames2 + 1;
-			
-}

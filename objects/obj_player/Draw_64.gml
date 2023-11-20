@@ -252,15 +252,14 @@ if (f5==1)
 
     {
 
-        draw_sprite(spr_affiche01,image_index,200,300);
+        draw_sprite(spr_affiche01,image_index,550,-2);
 
-
-        }
-   
+        }      
 
     if (page_object5 = 1)
 
     {
+
 
         f5 = 0;
         page_object5 = 0;
