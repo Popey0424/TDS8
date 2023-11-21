@@ -76,7 +76,7 @@ function scr_ejecter_ennemies()
 		targetY = other.y;
 		if (!place_meeting(targetX, targetY, obj_Wall))
 		{
-			other.x -= 50;
+			other.x -= 100;
 		}
 		
 	}
@@ -87,7 +87,7 @@ function scr_ejecter_ennemies()
 		targetY = other.y;
 		if (!place_meeting(targetX, targetY, obj_Wall))
 		{
-			other.x += 50;
+			other.x += 100;
 		}	
 	}
 
@@ -97,7 +97,7 @@ function scr_ejecter_ennemies()
 		targetY = other.y + 250;
 		if (!place_meeting(targetX, targetY, obj_Wall))
 		{
-			other.y +=50;
+			other.y +=100;
 		}
 	}
 
@@ -107,7 +107,7 @@ function scr_ejecter_ennemies()
 		targetY = other.y - 250;
 		if (!place_meeting(targetX, targetY, obj_Wall))
 		{
-			other.y -= 50;
+			other.y -= 100;
 		}
 	}
 	

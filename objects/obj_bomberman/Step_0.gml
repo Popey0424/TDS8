@@ -24,6 +24,7 @@ if (state == 2)
 	
 	if (!instance_exists(obj_projectil))
 	{
+		
 		instance_create_layer(x, y, "Instances_pop_up", obj_projectil)
 		move_towards_point(!obj_player.x, !obj_player.y, 10);
 	}
