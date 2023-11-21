@@ -32,5 +32,5 @@
     "path": "sprites/spr_malette_metallique/spr_malette_metallique.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
