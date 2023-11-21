@@ -26,7 +26,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_trigger_zone",
     "path": "sprites/spr_trigger_zone/spr_trigger_zone.yy",

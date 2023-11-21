@@ -8,4 +8,3 @@ anim_arme2 = true;
 
 }
 
-instance_create_layer(x,y,"Instances_Character", obj_fade_to_room);

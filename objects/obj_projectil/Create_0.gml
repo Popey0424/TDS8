@@ -4,4 +4,4 @@ direction = point_direction(x,y,obj_player.x, obj_player.y)
 
 
 
-alarm_set(0, 500)
+alarm_set(0, 50)

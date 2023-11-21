@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(__dnd_lives <= 0)
 {
-	global.score += 10;
+	global.score += 200;
 	
 	instance_destroy();
 	with(other)
