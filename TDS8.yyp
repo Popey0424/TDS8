@@ -139,7 +139,7 @@
     {"id":{"name":"RoomPause","path":"rooms/RoomPause/RoomPause.yy",},},
     {"id":{"name":"obj_sol02","path":"objects/obj_sol02/obj_sol02.yy",},},
     {"id":{"name":"obj_trou_visu","path":"objects/obj_trou_visu/obj_trou_visu.yy",},},
-    {"id":{"name":"obj_background_credit","path":"objects/obj_background_credit/obj_background_credit.yy",},},
+    {"id":{"name":"obj_credit","path":"objects/obj_credit/obj_credit.yy",},},
     {"id":{"name":"obj_trou01","path":"objects/obj_trou01/obj_trou01.yy",},},
     {"id":{"name":"spr_mur_deco06","path":"sprites/spr_mur_deco06/spr_mur_deco06.yy",},},
     {"id":{"name":"obj_Score","path":"objects/obj_Score/obj_Score.yy",},},
