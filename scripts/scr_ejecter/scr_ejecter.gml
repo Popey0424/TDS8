@@ -14,22 +14,22 @@ function scr_ejecter()
 	
 	if (other.x <= x-128) 
 	{
-		targetX = x - 256;
+		targetX = x - 200;
 		targetY = other.y;
-		if (place_meeting(targetX - 12, targetY, obj_Wall))
+		if (place_meeting(targetX - 128, targetY, obj_Wall))
 		{
 			if (!place_meeting(targetX + 2, targetY, obj_Wall))
 				other.x -= 1;
 		}
 		
 		else
-			other.x -= 256
+			other.x -= 200
 		
 	}
 	
 	else if (other.x >= x+128)
 	{
-		targetX = x + 256;
+		targetX = x + 200;
 		targetY = other.y;
 		if (place_meeting(targetX + 128, targetY, obj_Wall))
 		{
@@ -37,7 +37,7 @@ function scr_ejecter()
 				other.x += 1;
 		}	
 		else
-			other.x += 256
+			other.x += 200
 	}
 
 

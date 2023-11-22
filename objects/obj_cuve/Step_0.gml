@@ -9,7 +9,7 @@ if (etat == 0)
 
 if etat == 1
 {
-	image_index = 1
+	image_index = 0
 	camera_apply(view_camera[1]);
 	//view_set_camera(1,)
 	view_visible[1] = true;		
@@ -25,10 +25,10 @@ alarm[3] = 120;
 
 if etat == 2
 {
-	image_index = 2
+	image_index = 1
 }
 if etat == 3
 {
-	image_index = 3
+	image_index = 2
 }
 
