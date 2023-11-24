@@ -5,3 +5,7 @@ __dnd_lives += real(6);
 
 enemy_just_died = false;
 
+
+flashAlpha = 0;
+
+flashColour = c_white;

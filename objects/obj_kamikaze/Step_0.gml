@@ -31,3 +31,10 @@ if (active)
     //    sprite_index = spr_kamikaze_left; // Remplacez "spr_enemy_left" par le nom de votre animation "gauche"
     //}
 }
+
+//feedback visuel hit
+
+if flashAlpha > 0
+{
+	flashAlpha -= 0.10;
+}

@@ -18,3 +18,7 @@ else if (__dnd_lives >= 0)
 {
 	__dnd_lives -= 1;
 }
+
+
+
+flashAlpha = 1;
