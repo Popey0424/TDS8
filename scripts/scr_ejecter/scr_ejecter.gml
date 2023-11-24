@@ -18,8 +18,8 @@ function scr_ejecter()
 		targetY = other.y;
 		if (place_meeting(targetX - 128, targetY, obj_Wall))
 		{
-			if (!place_meeting(targetX + 2, targetY, obj_Wall))
-				other.x -= 1;
+			if (!place_meeting(targetX + 20, targetY, obj_Wall))
+				other.x -= 10;
 		}
 		
 		else
@@ -33,8 +33,8 @@ function scr_ejecter()
 		targetY = other.y;
 		if (place_meeting(targetX + 128, targetY, obj_Wall))
 		{
-			if (!place_meeting(targetX + 2, targetY, obj_Wall))
-				other.x += 1;
+			if (!place_meeting(targetX + 20, targetY, obj_Wall))
+				other.x += 10;
 		}	
 		else
 			other.x += 200
@@ -47,8 +47,8 @@ function scr_ejecter()
 		targetY = other.y - 196;
 		if (place_meeting(targetX, targetY - 96, obj_Wall))
 		{
-			if (!place_meeting(targetX, targetY - 2, obj_Wall))
-				other.y -= 1;
+			if (!place_meeting(targetX, targetY - 20, obj_Wall))
+				other.y -= 10;
 		}
 		else
 			other.y -= 196
@@ -60,8 +60,8 @@ function scr_ejecter()
 		targetY = other.y + 196;
 		if (place_meeting(targetX, targetY + 96, obj_Wall))
 		{
-			if (!place_meeting(targetX, targetY + 2, obj_Wall))
-				other.y += 1;
+			if (!place_meeting(targetX, targetY + 20, obj_Wall))
+				other.y += 10;
 		}
 		else
 			other.y += 196

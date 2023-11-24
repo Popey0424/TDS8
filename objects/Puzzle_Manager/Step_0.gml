@@ -29,7 +29,7 @@ if(ds_list_size(global.puzzle01_answer) == ds_list_size(global.puzzle01))
 	
 }
 
-if (obj_cuve.image_index == 2)
+if (obj_cuve.etat == 3)
 {
 	if (obj_porte_puzzle.image_index == 0)
 	{
