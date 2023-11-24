@@ -2,6 +2,15 @@
 
 //if(global.pause) exit;
 
+
+if obj_life_on = 0 and instance_exists(obj_life)
+{
+
+instance_destroy(obj_life);
+
+}
+
+
 if __dnd_lives > 4
 {
 	__dnd_lives = 4

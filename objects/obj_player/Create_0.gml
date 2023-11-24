@@ -7,7 +7,7 @@ instance_create_layer(0, 0, "Instances_Obj_Weapon", obj_weapon);
 
 instance_create_layer(0, 0, "Instances_pop_up", obj_zone_collision);
 
-instance_create_layer(0, 0, "Instances_pop_up", obj_life);
+
 
 // Initialisation des variables
 global.score = 0
@@ -28,7 +28,7 @@ flashAlpha = 0;
 //couleur 
 flashColour = c_white;
 
-
+obj_life_on = 0;
 
 
 
@@ -77,13 +77,9 @@ __dnd_lives += real(3);
 	
 	page_object5 = 0;
 	f5 = 0;
-
-	
-
 	
 	//invincibilité temporaire
 	
-
 	invincible = false;
 	
 	
