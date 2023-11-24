@@ -320,3 +320,6 @@ if ((keyboard_check_pressed(vk_left) or keyboard_check_pressed(ord("Q"))) and pa
       f5 = 0;
     page_object5 = 0;
 }  }
+
+
+

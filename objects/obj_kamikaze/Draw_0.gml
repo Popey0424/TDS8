@@ -11,3 +11,5 @@ if flashAlpha > 0
 	shader_reset(); 
 	
 }
+
+draw_path(path, x, y, 1);

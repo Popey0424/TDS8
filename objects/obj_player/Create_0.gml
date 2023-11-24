@@ -84,7 +84,7 @@ __dnd_lives += real(3);
 	
 	
 	
-	
+	flashui = 0;
 	
 	
 

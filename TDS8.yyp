@@ -161,6 +161,11 @@
     {"id":{"name":"PauseMenuSelectionSound","path":"sounds/PauseMenuSelectionSound/PauseMenuSelectionSound.yy",},},
     {"id":{"name":"spr_green_zone","path":"sprites/spr_green_zone/spr_green_zone.yy",},},
     {"id":{"name":"scr_button_create","path":"scripts/scr_button_create/scr_button_create.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"TestAudio","path":"rooms/TestAudio/TestAudio.yy",},},
+    {"id":{"name":"obj_pathfinding","path":"objects/obj_pathfinding/obj_pathfinding.yy",},},
+>>>>>>> b7888fb811aaa3dabfdc7da045f02d7eb57f36d2
     {"id":{"name":"obj_marks_arrow","path":"objects/obj_marks_arrow/obj_marks_arrow.yy",},},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_trigger_end","path":"objects/obj_trigger_end/obj_trigger_end.yy",},},
