@@ -9,3 +9,10 @@ enemy_just_died = false;
 flashAlpha = 0;
 
 flashColour = c_white;
+
+path = path_add();
+
+target_x = obj_player.x
+target_y = obj_player.y
+
+alarm[0] = 1;

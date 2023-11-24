@@ -6,6 +6,7 @@
     {"name":"obj_textbox05","order":2,"path":"objects/obj_textbox05/obj_textbox05.yy",},
     {"name":"obj_trigger_zone_Wave03","order":7,"path":"objects/obj_trigger_zone_Wave03/obj_trigger_zone_Wave03.yy",},
     {"name":"Wave01","order":1,"path":"timelines/Wave01/Wave01.yy",},
+    {"name":"obj_pathfinding","order":5,"path":"objects/obj_pathfinding/obj_pathfinding.yy",},
     {"name":"obj_obstacle_horiz_02","order":6,"path":"objects/obj_obstacle_horiz_02/obj_obstacle_horiz_02.yy",},
     {"name":"obj_tuyau_horiz_02","order":10,"path":"objects/obj_tuyau_horiz_02/obj_tuyau_horiz_02.yy",},
     {"name":"obj_archive_03","order":1,"path":"objects/obj_archive_03/obj_archive_03.yy",},
