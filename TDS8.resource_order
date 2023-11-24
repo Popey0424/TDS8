@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"Test","order":1,"path":"rooms/Test/Test.yy",},
     {"name":"obj_trigger_zone_open_new","order":1,"path":"objects/obj_trigger_zone_open_new/obj_trigger_zone_open_new.yy",},
     {"name":"obj_trigger_zone_Wave02","order":4,"path":"objects/obj_trigger_zone_Wave02/obj_trigger_zone_Wave02.yy",},
     {"name":"obj_textbox05","order":2,"path":"objects/obj_textbox05/obj_textbox05.yy",},
@@ -13,6 +14,7 @@
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_tuyau_verti_02","order":11,"path":"objects/obj_tuyau_verti_02/obj_tuyau_verti_02.yy",},
     {"name":"obj_pile_de_feuilles","order":5,"path":"objects/obj_pile_de_feuilles/obj_pile_de_feuilles.yy",},
+    {"name":"obj_zone_collision1","order":1,"path":"objects/obj_zone_collision1/obj_zone_collision1.yy",},
     {"name":"Wave03","order":3,"path":"timelines/Wave03/Wave03.yy",},
     {"name":"obj_textbox05_off_collision","order":3,"path":"objects/obj_textbox05_off_collision/obj_textbox05_off_collision.yy",},
     {"name":"obj_affiche","order":4,"path":"objects/obj_affiche/obj_affiche.yy",},

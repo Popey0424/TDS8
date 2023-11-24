@@ -9,6 +9,7 @@
   "instanceCreationOrder": [
     {"name":"inst_4FEA9EF4","path":"rooms/Room_Credits/Room_Credits.yy",},
     {"name":"inst_5C54B2F","path":"rooms/Room_Credits/Room_Credits.yy",},
+    {"name":"inst_3D562ECB","path":"rooms/Room_Credits/Room_Credits.yy",},
   ],
   "isDnd": false,
   "layers": [

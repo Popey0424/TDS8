@@ -19,7 +19,8 @@ else if (state == 1)
 
 {
 	audio_stop_all()
-	room_goto(Level01);
+	//room_goto(Level01);
+	room_goto_next()
 timer--;
 
 
