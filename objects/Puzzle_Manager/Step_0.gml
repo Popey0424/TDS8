@@ -25,6 +25,8 @@ if(ds_list_size(global.puzzle01_answer) == ds_list_size(global.puzzle01))
 		obj_boite03.image_index = 0
 		obj_boite04.image_index = 0
 		ds_list_clear(global.puzzle01_answer)
+		layer_enable_fx("Shake",true);
+		alarm[0] = 30;
 	}
 	
 }
