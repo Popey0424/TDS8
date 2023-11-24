@@ -8,3 +8,6 @@ image_alpha = 0.5;
 
 x = obj_player.x 
 y = obj_player.y + 70 
+
+
+flashui = 0;
